@@ -1,0 +1,53 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+a {color: #a01922;}
+
+.post-item .post-image .post-meta-category,
+.post-item .post-slider .post-meta-category,
+.post-item .post-video .post-meta-category,
+.post-item .post-audio .post-meta-category,
+.post-item .post-quote-img .post-meta-category {
+  background-color: #a01922;
+}
+
+.background-grey {
+    background-color: #f6f2f4 !important;
+  }
+  
+
+
+button.btn.btn-outline.reverse,
+.btn:not(.close):not(.mfp-close).btn-outline.reverse,
+a.btn:not([href]):not([tabindex]).btn-outline.reverse
+{
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  color: #fff;
+}
+
+
+
+button.btn.btn-outline.reverse:hover, button.btn.btn-outline.reverse:focus, button.btn.btn-outline.reverse:active, button.btn.btn-outline.active.reverse,
+.btn:not(.close):not(.mfp-close).btn-outline.reverse:hover,
+.btn:not(.close):not(.mfp-close).btn-outline.reverse:focus,
+.btn:not(.close):not(.mfp-close).btn-outline.reverse:active,
+.btn:not(.close):not(.mfp-close).btn-outline.reverse.active,
+a.btn:not([href]):not([tabindex]).btn-outline.reverse:hover,
+a.btn:not([href]):not([tabindex]).btn-outline.reverse:focus,
+a.btn:not([href]):not([tabindex]).btn-outline.reverse:active,
+a.btn:not([href]):not([tabindex]).btn-outline.reverse.active {
+  background-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  color: #a01922;
+}
